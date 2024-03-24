@@ -10,7 +10,7 @@ from .models import Chat
 from django.utils import timezone
 
 # Récupération la clé d'API à partir de la variable d'environnement
-openai.api_key = os.environ['OPENAI_API_KEY']
+openai.api_key = ''
 
 
 
