@@ -8,6 +8,6 @@ RUN pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
-COPY manage.py /app/
+COPY manage.py /app/  
 
-CMD ["python", "manage.py"]
+CMD [ "python", "manage.py" ] 

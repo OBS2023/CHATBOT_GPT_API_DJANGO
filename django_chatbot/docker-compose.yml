@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: your_database_image
-    # configuration de la base de données
+    
 
   web:
     build: .
